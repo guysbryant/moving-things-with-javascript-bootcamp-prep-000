@@ -10,8 +10,9 @@ $(function(){
       moveDodgerRight();
     }
   })
+  
   function moveDodgerLeft(){
-    
+    console.log(parseInt(dodger.style.left));
     dodger.style.left = '300px';
   }
 })
