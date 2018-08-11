@@ -17,4 +17,10 @@ $(function(){
       dodger.style.left = `${currentPosition - 10}px`;
     }
   }
+  
+  function moveDodgerRight(){
+    var currentPosition = parseInt(dodger.style.right);
+    if (currentPosition > 0){
+      dodger.style.right = `${currentPosition + 10}px`;
+    }
 })
