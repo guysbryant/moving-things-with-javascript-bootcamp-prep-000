@@ -20,7 +20,7 @@ $(function(){
   
   function moveDodgerRight(){
     var currentPosition = parseInt(dodger.style.left);
-    if (currentPosition > 0){
+    if (currentPosition < 360){
       dodger.style.left = `${currentPosition + 10}px`;
     }
   }
