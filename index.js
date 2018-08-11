@@ -1,4 +1,4 @@
-const app = "I don't do much."
+//const app = "I don't do much."
 $( document ).ready(function(){
 console.log('dodger');
 });
