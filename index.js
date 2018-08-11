@@ -6,6 +6,6 @@ $(function(){
   function moveDodgerLeft(){
     var currentPosition = dodger.style.left
     // console.log(toInt(currentPosition));
-    currentPosition = '100px';
+    currentPosition = '200px';
   }
 })
