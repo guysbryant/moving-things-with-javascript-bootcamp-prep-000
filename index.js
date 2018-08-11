@@ -1,4 +1,4 @@
 $(function(){
   var dodger = $('#dodger');
-  console.log(dodger.style.backgroundColor);
+  console.log(dodger.style);
 })
