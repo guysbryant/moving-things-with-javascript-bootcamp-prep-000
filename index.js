@@ -1,5 +1,5 @@
 const app = "I don't do much."
-$(function(){
+$(document).ready(function(){
   console.log('sup');
 var dodger = $('#dodger')
 dodger.style('background-color', '#111');
