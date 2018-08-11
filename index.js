@@ -1,3 +1,4 @@
-console.log('sup');
-var dodger = $('#dodger');
-console.log(dodger);
+$(function(){
+  var dodger = $('#dodger');
+  console.log(dodger);
+})
