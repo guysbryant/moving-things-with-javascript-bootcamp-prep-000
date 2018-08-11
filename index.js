@@ -3,6 +3,6 @@ $(function(){
   // dodger[0].style.backgroundColor = 'black';
   
   function moveDodgerLeft(){
-    dodger
+    //dodger
   }
 })
