@@ -21,7 +21,7 @@ $(function(){
   function moveDodgerRight(){
     var currentPosition = parseInt(dodger.style.left);
     if (currentPosition > 0){
-      dodger.style.left = `${currentPosition - 10}px`;
+      dodger.style.left = `${currentPosition + 10}px`;
     }
   }
 })
