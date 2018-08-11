@@ -23,4 +23,5 @@ $(function(){
     if (currentPosition > 0){
       dodger.style.right = `${currentPosition + 10}px`;
     }
+  }
 })
