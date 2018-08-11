@@ -7,7 +7,6 @@ $(function(){
       moveDodgerLeft();
     }
     if (e.key === 'ArrowRight'){
-      console.log('sup');
       moveDodgerRight();
     }
   })
@@ -20,6 +19,7 @@ $(function(){
   }
   
   function moveDodgerRight(){
+    console.log('sup');
     var currentPosition = parseInt(dodger.style.right);
     if (currentPosition > 0){
       dodger.style.right = `${currentPosition + 10}px`;
