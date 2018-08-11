@@ -1,3 +1,3 @@
 console.log('sup');
-var dodger = $('#dodger');
+var dodger = document.getElementById('dodger');
 console.log(dodger);
