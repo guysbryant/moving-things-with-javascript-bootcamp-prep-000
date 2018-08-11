@@ -5,7 +5,7 @@ $(function(){
   
   function moveDodgerLeft(){
     var currentPosition = dodger.style.left
-    console.log(currentPosition.toInt());
+    console.log(toInt(currentPosition));
     currentPosition -= 10;
   }
 })
