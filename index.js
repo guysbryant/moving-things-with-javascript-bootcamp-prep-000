@@ -3,9 +3,11 @@ $(function(){
   // console.log(dodger.style.left);
   
   document.addEventListener('keydown', function(e){
-    // console.log(e);
     if (e.key === 'ArrowLeft'){
       moveDodgerLeft();
+    }
+    if (e.key === 'ArrowRight'){
+      moveDodgerRight();
     }
   })
   function moveDodgerLeft(){
