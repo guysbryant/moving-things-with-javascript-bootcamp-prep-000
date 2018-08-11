@@ -13,6 +13,8 @@ $(function(){
   
   function moveDodgerLeft(){
     var currentPosition = parseInt(dodger.style.left);
-    dodger.style.left = `${currentPosition - 10}px`;
+    if (currentPosition > 0){
+      dodger.style.left = `${currentPosition - 10}px`;
+    }
   }
 })
