@@ -7,6 +7,7 @@ $(function(){
       moveDodgerLeft();
     }
     if (e.key === 'ArrowRight'){
+      console.log('sup');
       moveDodgerRight();
     }
   })
