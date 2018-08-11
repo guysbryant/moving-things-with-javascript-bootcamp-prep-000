@@ -19,8 +19,8 @@ $(function(){
   }
   
   function moveDodgerRight(){
-    console.log('sup');
     var currentPosition = parseInt(dodger.style.right);
+    console.log(currentPosition);
     if (currentPosition > 0){
       dodger.style.right = `${currentPosition + 10}px`;
     }
