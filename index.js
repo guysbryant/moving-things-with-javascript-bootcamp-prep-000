@@ -4,7 +4,7 @@ $(function(){
   
   document.addEventListener('keydown', function(e){
     console.log(e);
-    if (e.key === 'left'){
+    if (e.key === 'ArrowLeft'){
       moveDodgerLeft();
     }
   })
