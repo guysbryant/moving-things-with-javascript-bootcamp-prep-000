@@ -20,7 +20,7 @@ $(function(){
   
   function moveDodgerRight(){
     var currentPosition = parseInt(dodger.style.right);
-    console.log(dodger.style);
+    console.log(dodger.width);
     if (currentPosition > 0){
       dodger.style.right = `${currentPosition + 10}px`;
     }
